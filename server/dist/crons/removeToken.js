@@ -1,0 +1,23 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.removeOldTokens = void 0;
+const tslib_1 = require("tslib");
+const cron_1 = require("cron");
+const dayjs_1 = tslib_1.__importDefault(require("dayjs"));
+const tokenModels_1 = require("../models/tokenModels");
+const tokeAdminModel_1 = require("../models/tokeAdminModel");
+const messageModel_1 = require("../models/messageModel");
+const orderModel_1 = require("../models/orderModel");
+const tokensRemover = async () => {
+    const day = await (0, dayjs_1.default)().startOf("day").subtract(3, "day").toJSON();
+    const dayActivate = await (0, dayjs_1.default)().startOf("day").subtract(7, "day").toJSON();
+    const dayAdmin = await (0, dayjs_1.default)().startOf("day").subtract(1, "day").toJSON();
+    const messages = await (0, dayjs_1.default)().startOf("day").subtract(15, "day").toJSON();
+    const order = await (0, dayjs_1.default)().startOf("day").subtract(30, "day").toJSON();
+    await tokenModels_1.Token.deleteMany({ createdAt: { $lte: day } });
+    await tokenModels_1.TokenActivate.deleteMany({ createdAt: { $lte: dayActivate } });
+    await tokeAdminModel_1.TokenAdmin.deleteMany({ createdAt: { $lte: dayAdmin } });
+    await messageModel_1.Message.deleteMany({ createdAt: { $lte: messages } });
+    await orderModel_1.Order.deleteMany({ createdAt: { $lte: order } });
+};
+exports.removeOldTokens = new cron_1.CronJob("0 0 * * *", tokensRemover);

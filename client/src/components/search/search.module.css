@@ -1,0 +1,80 @@
+.plantUser{
+    height: 450px;
+    width: 300px;
+    display: flex;
+    border: solid darkgray 1px;
+    justify-content: center;
+    margin: 10px;
+    border-radius: 30px;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: snow;
+
+}
+.Image{
+    border-radius: 30px;
+    /*height: 300px;*/
+    /*width: 250px;*/
+    height: 70%;
+    width: 70%;
+}
+.ImageDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+    width: 100%;
+}
+.PlantNameDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+    width: 100%;
+}
+.priceDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+    width: 100%;
+}
+.ph1{
+
+}
+.divph1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+    width: 100%;
+}
+.buttonDiv{
+    height: 10%;
+    width: 100%;
+}
+.button{
+    height: 100%;
+    width: 100%;
+    border-bottom-right-radius: 30px ;
+    border-bottom-left-radius: 30px;
+    border: solid darkgrey 1px;
+    /*color: yellow;*/
+    background-color: darkgrey;
+}
+.button:hover{
+    /*color: white;*/
+    background-color: mediumseagreen;
+    transition: 1s;
+}
+.AllPlants{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.NoFound{
+    color: dimgrey;
+    font-family: cursive;
+    font-size: 50px;
+}

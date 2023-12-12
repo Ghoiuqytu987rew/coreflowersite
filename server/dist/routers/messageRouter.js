@@ -1,0 +1,15 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.MessageRouter = void 0;
+const express_1 = require("express");
+const messageController_1 = require("../controllers/messageController");
+const router = (0, express_1.Router)();
+router.get("/", messageController_1.messageController.get);
+router.get("/", messageController_1.messageController.getById);
+router.delete("/", messageController_1.messageController.delete);
+router.get("/filter", messageController_1.messageController.messageFilter);
+router.patch("/red", messageController_1.messageController.becomeToRed);
+router.post("/new", messageController_1.messageController.newMessage);
+router.patch("/replay", messageController_1.messageController.replay);
+router.patch("/email", messageController_1.messageController.getMessageByEmail);
+exports.MessageRouter = router;

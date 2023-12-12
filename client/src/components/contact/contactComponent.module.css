@@ -1,0 +1,172 @@
+.ChatBoard{
+    overflow:auto;
+    width: 500px;
+    height: 300px;
+    border: solid black 2px;
+    border-top-left-radius: 15px;
+}
+.Button{
+    margin: 0px;
+    margin-top: 0px;
+    padding: 0px;
+    width: 94px;
+    height: 11mm;
+    border-bottom-right-radius: 15px;
+    transition: 1s;
+    font-family:cursive;
+}
+.Button:hover{
+    background-color: forestgreen;
+    transition: 1s;
+}
+.h{
+    color: forestgreen ;
+}
+.ChatLeft{
+    display: flex;
+   width: 100%;
+    justify-content: left;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+
+}
+.ChatRight{
+    display: flex;
+    width: 100%;
+    justify-content: right; 
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+}
+.ChatIL{
+    display: flex;
+   width: 100%;
+    justify-content: left;
+    font-size: small;
+}
+.ChatIR{
+    display: flex;
+    width: 100%;
+    justify-content: right; 
+    font-size: small;
+}
+.bRight{
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color: greenyellow;
+    opacity: 90%;
+    border: solid black 1px;
+}
+.bLeft{
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color:mediumorchid;
+    opacity: 90%;
+    border: solid black 1px;
+}
+.Main{
+    width: 40%;
+    height: 300px;
+    border: solid black 1px;
+    border-radius: 20px;
+    font-family:cursive;
+}
+.InputEmailDiv{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.ButtonDiv{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.TextareaDiv{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.TextareaDivUser{ 
+    background-color: black;
+    width: 504px;
+    border-bottom-right-radius: 30px;
+} 
+
+.Textarea{
+    height: 10mm;
+    width: 400px;
+    border: solid 3px black;
+    font-family: cursive;
+    font-size: larger;
+}
+
+.TextareaGuest{
+    height: 150px;
+    width: 100%;
+    border-radius: 20px;
+    font-family: cursive;
+    font-size: larger;
+}
+.ButtonGuest{
+    margin: 0px;
+    margin-top: 0px;
+    padding: 0px;
+    height: 51px;
+    border-radius: 15px;
+    width: 200px;
+    height: 30px;
+    transition: 1s;
+    font-family:cursive;
+}
+.ButtonGuest:hover{
+    background-color: forestgreen;
+    transition: 1s;
+}
+@media only screen and (min-width: 200px) and (max-width: 800px){
+    .InputEmail{
+        width: 100%;
+    }
+    .ChatBoard{
+        overflow:auto;
+        width: 350px;
+        height: 300px;
+        border: solid black 2px;
+        border-top-left-radius: 15px;
+    }
+
+    .TextareaDivUser{ 
+        background-color: black;
+        width: 354px;
+        border-bottom-right-radius: 30px;
+    } 
+    
+    .Textarea{
+        height: 10mm;
+        width: 250px;
+        border: solid 3px black;
+        font-family: cursive;
+        font-size: larger;
+    }
+    .Button{
+        margin: 0px;
+        margin-top: 0px;
+        padding: 0px;
+        width: 94px;
+        height: 11mm;
+        border-bottom-right-radius: 15px;
+        transition: 1s;
+        font-family:cursive;
+    }
+}

@@ -1,0 +1,34 @@
+.Main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.RightDiv{
+    height: 100vh;
+    width: 77%;
+}
+.LeftDiv{
+    height: 100vh;
+    width: 15%;
+    border-right: solid black 1px;
+}
+
+.liClose{
+    border: none;
+    background-color: white;
+    border-radius: 30px;
+    width: 100%;
+
+}
+
+.liClose:hover{
+    background-color: mediumseagreen;
+    transition: 1s;
+}
+.labelQun{
+    font-family: cursive;
+    font-size: large;
+    background-color: red;
+    border-radius: 50%;
+}

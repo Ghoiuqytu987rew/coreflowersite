@@ -1,0 +1,33 @@
+.ReplayForm{
+    overflow:auto;
+    border-top-left-radius: 15px;
+    border: solid black 1px;
+    width: 500px;
+    height: 500px;
+
+}
+.Textarea{
+    /* background-color: yellowgreen; */
+    width: 424px;
+    height: 45px;
+    /* border-radius: 15px; */
+    /* border-top-left-radius: 15px; */
+    border-bottom-left-radius: 15px;
+}
+.Button{
+    margin: 0px;
+    margin-top: 0px;
+    padding: 0px;
+    /* width: 100px; */
+    height: 51px;
+    /* border-top-right-radius: 15px; */
+    border-bottom-right-radius: 15px;
+}
+.Button:hover{
+    background-color: forestgreen;
+    transition: 1s;
+}
+.Main{
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,12 @@
+.Main{
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: whitesmoke;
+}
+.Title{
+    color: green;
+}
+.TitleH{
+    color: blueviolet;
+}

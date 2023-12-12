@@ -1,0 +1,134 @@
+.formClient{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    /* margin: 1%; */
+}
+.h6FormClient{
+    margin-bottom: 0px;
+    color: darkgrey;
+}
+.divFormClient{
+    margin-left: 7px;
+    margin-right: 7px;
+}
+.ButonDiv{
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: aqua; */
+}
+.Buton{
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    width: 150px;
+    height: 50px;
+    font-size: 30px;
+    font-family: cursive;
+}
+.Buton:hover{
+    background-color: forestgreen;
+}
+
+.Input{
+    width: 200px;
+    height: 50px;
+    margin: 30px;
+    border-radius: 10px;
+    border: solid black 2px;
+}
+.Title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    font-family: cursive;
+
+}
+.divFormCheckSign{
+    display: flex;
+    width: 100%;
+    justify-content: left;
+}
+.divUserTake{
+    width: 100%;
+    height: 100%;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 600px) {
+    .formClient{
+        height: 200px;
+        margin-bottom: 0px;
+      
+    }
+    .h6FormClient{
+        margin-bottom: 0px;
+        color: darkgrey;
+    }
+    .divFormClient{
+        margin-left: 2px;
+        margin-right: 2px;
+        margin-bottom: 5px;
+    }
+    .h6FormCheck{
+        font-size: small;
+        font-family: cursive
+    }
+    .ButonDiv{
+        margin-top: 10px;
+        
+    }
+    .Buton{
+        margin-left: 20px;
+        margin-right: 20px;
+        width: 150px;
+        height: 50px;
+        font-size: 30px;
+    }
+    
+    .Input{
+        width: 200px;
+        height: 25px;
+        margin: 5px;
+    }
+    .Title{
+        font-size: small;
+    }
+    .divUserTake1{
+
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+   
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+   
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 768px) and (max-width: 992px)  {
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px)  {
+ 
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  
+
+}

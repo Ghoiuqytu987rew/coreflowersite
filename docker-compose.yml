@@ -1,0 +1,14 @@
+version: "3"
+services:
+  backend_service:
+    image: "server"
+    ports:
+      - 5100:5100
+
+  frontend_service:
+    image: "client"
+    ports:
+      - 80:3000
+    depends_on:
+      - backend_service
+

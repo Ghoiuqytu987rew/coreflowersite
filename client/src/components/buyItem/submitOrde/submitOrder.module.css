@@ -1,0 +1,76 @@
+.mainDiv {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+/* .leftPart{
+    width: 70%;
+    height: 100vh;
+} */
+.rightPart{
+    width: 100%;
+}
+.ButonDiv{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 52px;
+  
+}
+.Buton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    width: 200px;
+    height: 50px;
+    font-size: 30px;
+    font-family: cursive;
+    margin-right: 10px;
+}
+.Buton:hover{
+    background-color: forestgreen;
+}
+
+.ButonBack{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    width: 100px;
+    height: 50px;
+    font-size: 30px;
+    font-family: cursive;  
+    margin-left: 10px;
+}
+
+.ButonBack:hover{
+    background-color: forestgreen;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+   
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+   
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 768px) and (max-width: 992px)  {
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px)  {
+ 
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  
+
+}

@@ -1,0 +1,23 @@
+.Pagination {
+    list-style: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+    font-size: 1.2rem;
+    gap: 5px;
+}
+.pageNum{
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+.pageNum:hover{
+    background-color: #61dafb;
+    color: cornsilk;
+}
+.active{
+    background-color: #61dafb;
+    color: cornsilk;
+}

@@ -1,0 +1,459 @@
+.Questions{
+    font-family: cursive;
+}
+@media only screen and (max-width: 600px) {
+    .QuestionsTitl{
+        font-size: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: cursive;
+    
+    }
+    .QuestionsTitles{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: honeydew;
+        font-size: 18px;
+        width: 95%;
+        height: 50px;
+        border-radius: 30px;
+        border: solid black 1px;
+        transition: 1s;
+    
+    }
+    .QuestionsAnswers{
+        font-size: 25px;
+        /* width: 55%;
+        height: 50px; */
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+        /* border-radius: 30px; */
+        border: solid black 1px;
+    
+    }
+    .QuestionsTitles:hover{
+        margin-left: 50px;
+        background-color: forestgreen;
+        transition: 1s;
+    }
+    
+    .QuestionsAnswersNone{
+        color: none;
+    }
+    .ContactTxt{
+        background-color: honeydew;
+        font-size: 18px;
+        width: 55%;
+        height: 50px;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+
+        /* border: solid black 1px; */
+        transition: 1s;
+        font-family: cursive;
+        width: 100%;
+    }
+    .ContactCompon{
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .ButtonCont{
+        border-radius: 30px;
+        transition: 1s;
+        width: 200px;
+        height: 50px;
+    
+    
+    }
+    .ButtonCont:hover{
+        width: 350px;
+       background-color: forestgreen;
+       transition: 1s;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .QuestionsTitl{
+        font-size: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: cursive;
+    
+    }
+    .QuestionsTitles{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: honeydew;
+        font-size: 18px;
+        width: 95%;
+        height: 50px;
+        border-radius: 30px;
+        border: solid black 1px;
+        transition: 1s;
+    
+    }
+    .QuestionsAnswers{
+        font-size: 25px;
+        /* width: 55%;
+        height: 50px; */
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+        /* border-radius: 30px; */
+        border: solid black 1px;
+    
+    }
+    .QuestionsTitles:hover{
+        margin-left: 50px;
+        background-color: forestgreen;
+        transition: 1s;
+    }
+    
+    .QuestionsAnswersNone{
+        color: none;
+    }
+    .ContactTxt{
+        background-color: honeydew;
+        font-size: 18px;
+        width: 55%;
+        height: 50px;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+
+        /* border: solid black 1px; */
+        transition: 1s;
+        font-family: cursive;
+        width: 100%;
+    }
+    .ContactCompon{
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .ButtonCont{
+        border-radius: 30px;
+        transition: 1s;
+        width: 200px;
+        height: 50px;
+    
+    
+    }
+    .ButtonCont:hover{
+        width: 350px;
+       background-color: forestgreen;
+       transition: 1s;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+   
+    .QuestionsTitl{
+        font-size: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: cursive;
+    
+    }
+    .QuestionsTitles{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: honeydew;
+        font-size: 18px;
+        width: 95%;
+        height: 50px;
+        border-radius: 30px;
+        border: solid black 1px;
+        transition: 1s;
+    
+    }
+    .QuestionsAnswers{
+        font-size: 25px;
+        /* width: 55%;
+        height: 50px; */
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+        /* border-radius: 30px; */
+        border: solid black 1px;
+    
+    }
+    .QuestionsTitles:hover{
+        margin-left: 50px;
+        background-color: forestgreen;
+        transition: 1s;
+    }
+    
+    .QuestionsAnswersNone{
+        color: none;
+    }
+    .ContactTxt{
+        background-color: honeydew;
+        font-size: 18px;
+        width: 55%;
+        height: 50px;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+
+        /* border: solid black 1px; */
+        transition: 1s;
+        font-family: cursive;
+        width: 100%;
+    }
+    .ContactCompon{
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .ButtonCont{
+        border-radius: 30px;
+        transition: 1s;
+        width: 200px;
+        height: 50px;
+    
+    
+    }
+    .ButtonCont:hover{
+        width: 350px;
+       background-color: forestgreen;
+       transition: 1s;
+    }
+  
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 768px) and (max-width: 992px)  {
+    .QuestionsTitl{
+        font-size: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: cursive;
+    
+    }
+    .QuestionsTitles{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: honeydew;
+        font-size: 25px;
+        width: 95%;
+        height: 50px;
+        border-radius: 30px;
+        border: solid black 1px;
+        transition: 1s;
+    
+    }
+    .QuestionsAnswers{
+        font-size: 25px;
+        /* width: 55%;
+        height: 50px; */
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+        /* border-radius: 30px; */
+        border: solid black 1px;
+    
+    }
+    .QuestionsTitles:hover{
+        margin-left: 50px;
+        background-color: forestgreen;
+        transition: 1s;
+    }
+    
+    .QuestionsAnswersNone{
+        color: none;
+    }
+    .ContactTxt{
+        background-color: honeydew;
+        font-size: 25px;
+        width: 55%;
+        height: 50px;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+
+        /* border: solid black 1px; */
+        transition: 1s;
+        font-family: cursive;
+        width: 100%;
+    }
+    .ContactCompon{
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .ButtonCont{
+        border-radius: 30px;
+        transition: 1s;
+        width: 200px;
+        height: 50px;
+    
+    
+    }
+    .ButtonCont:hover{
+        width: 350px;
+       background-color: forestgreen;
+       transition: 1s;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px)  {
+    .QuestionsTitl{
+        font-size: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: cursive;
+    
+    }
+    .QuestionsTitles{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: honeydew;
+        font-size: 25px;
+        width: 95%;
+        height: 50px;
+        border-radius: 30px;
+        border: solid black 1px;
+        transition: 1s;
+    
+    }
+    .QuestionsAnswers{
+        font-size: 25px;
+        /* width: 55%;
+        height: 50px; */
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+        /* border-radius: 30px; */
+        border: solid black 1px;
+    
+    }
+    .QuestionsTitles:hover{
+        margin-left: 50px;
+        background-color: forestgreen;
+        transition: 1s;
+    }
+    
+    .QuestionsAnswersNone{
+        color: none;
+    }
+    .ContactTxt{
+        background-color: honeydew;
+        font-size: 25px;
+        width: 55%;
+        height: 50px;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+
+        /* border: solid black 1px; */
+        transition: 1s;
+        font-family: cursive;
+        width: 100%;
+    }
+    .ContactCompon{
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .ButtonCont{
+        border-radius: 30px;
+        transition: 1s;
+        width: 200px;
+        height: 50px;
+    
+    
+    }
+    .ButtonCont:hover{
+        width: 350px;
+       background-color: forestgreen;
+       transition: 1s;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .QuestionsTitl{
+        font-size: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: cursive;
+    
+    }
+    .QuestionsTitles{
+        background-color: honeydew;
+        font-size: 30px;
+        width: 55%;
+        height: 50px;
+        border-radius: 30px;
+        border: solid black 1px;
+        transition: 1s;
+    
+    }
+    .QuestionsAnswers{
+        font-size: 25px;
+        /* width: 55%;
+        height: 50px; */
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+        /* border-radius: 30px; */
+        border: solid black 1px;
+    
+    }
+    .QuestionsTitles:hover{
+        margin-left: 50px;
+        background-color: forestgreen;
+        transition: 1s;
+    }
+    
+    .QuestionsAnswersNone{
+        color: none;
+    }
+    .ContactTxt{
+        background-color: honeydew;
+        font-size: 30px;
+        width: 55%;
+        height: 50px;
+        border-radius: 30px;
+        /* border: solid black 1px; */
+        transition: 1s;
+        font-family: cursive;
+        width: 100%;
+    }
+    .ContactCompon{
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .ButtonCont{
+        border-radius: 30px;
+        transition: 1s;
+        width: 200px;
+        height: 50px;
+    
+    
+    }
+    .ButtonCont:hover{
+        width: 350px;
+       background-color: forestgreen;
+       transition: 1s;
+    }
+}

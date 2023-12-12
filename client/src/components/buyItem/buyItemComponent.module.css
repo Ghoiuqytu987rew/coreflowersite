@@ -1,0 +1,299 @@
+.mainDiv {
+    display: flex;
+    flex-wrap: wrap;
+}
+.leftPart{
+    width: 70%;
+    height: 100vh;
+}
+.rightPart{
+    width: 20%;
+    background-color: antiquewhite;
+}
+
+.formaOrder{
+    width: 80%;
+    /* background-color: antiquewhite; */
+    border: solid black 2px;
+    border-radius: 30px;
+}
+.mainDivBuiItem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.Title{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ShowSteps{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.Buton:hover{
+    background-color: forestgreen;
+}
+
+.Title{
+    font-size: larger;
+    font-family: cursive;
+}
+.Form1{
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-wrap: wrap;
+    height: 62%;
+}
+.divPay{
+    display: flex;
+    flex-wrap: wrap;
+}
+.divPayUp{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.Buton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    font-family: cursive;
+}   
+.Active{
+    background-color: green;
+    border: solid black 1px;
+    border-radius: 50%;
+}
+.NoActive{
+    border: solid black 1px;
+    border-radius: 50%;
+}
+.Error{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: crimson;
+    width: 100%;
+    font-family: cursive;
+}
+
+
+@media only screen and (min-width: 200px) and (max-width: 600px) {
+    .formaOrder{
+        height: 400px;
+    }
+    .rightPart{
+        height: 10px;
+    }
+    .ShowSteps{
+        margin-top: 2px;
+        width: 100%;
+        height: 5xp;
+    }
+    .Active{
+        width: 5px;
+        height: 5px;
+        margin-left: 5px;
+    }
+    .NoActive{
+        width: 5px;
+        height: 5px;
+        margin-left: 5px;
+    }
+    .Title{
+        font-size: small;
+    }
+    .Buton{
+        margin-right: 20px;
+        width: 150px;
+        height: 50px;
+        font-size: 30px;
+    }   
+    .Error{
+        font-size: 25px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .formaOrder{
+        width: 700px;
+        height: 500px;
+    }
+    .rightPart{
+        height: 500px;
+    }
+    .ShowSteps{
+        margin-top: 10px;
+        width: 100%;
+        height: 20xp;
+    }
+    .Active{
+        width: 15px;
+        height: 15px;
+        margin-left: 10px;
+    }
+    .NoActive{
+        width: 15px;
+        height: 15px;
+        margin-left: 10px;
+    }
+    .Buton{
+        margin-right: 20px;
+        width: 150px;
+        height: 50px;
+        font-size: 30px;
+    }   
+    .Error{
+        font-size: 25px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .formaOrder{
+        width: 700px;
+        height: 500px;
+    }
+    .rightPart{
+        height: 500px;
+    }
+    .ShowSteps{
+        margin-top: 10px;
+        width: 100%;
+        height: 20xp;
+    }
+    .Active{
+        width: 15px;
+        height: 15px;
+        margin-left: 10px;
+    }
+    .NoActive{
+        width: 15px;
+        height: 15px;
+        margin-left: 10px;
+    }
+    .Buton{
+        margin-right: 20px;
+        width: 150px;
+        height: 50px;
+        font-size: 30px;
+    }   
+    .Error{
+        font-size: 25px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 768px) and (max-width: 992px)  {
+    .formaOrder{
+        width: 700px;
+        height: 500px;
+    }
+    .rightPart{
+        height: 500px;
+    }
+    .ShowSteps{
+        margin-top: 10px;
+        width: 100%;
+        height: 20xp;
+    }
+    .Active{
+        width: 15px;
+        height: 15px;
+        margin-left: 10px;
+    }
+    .NoActive{
+        width: 15px;
+        height: 15px;
+        margin-left: 10px;
+    }
+    .Buton{
+        margin-right: 20px;
+        width: 150px;
+        height: 50px;
+        font-size: 30px;
+    }   
+    .Error{
+        font-size: 25px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px)  {
+    .formaOrder{
+        width: 700px;
+        height: 500px;
+    }
+    .rightPart{
+        height: 500px;
+    }
+    .ShowSteps{
+        margin-top: 10px;
+        width: 100%;
+        height: 20xp;
+    }
+    .Active{
+        width: 15px;
+        height: 15px;
+        margin-left: 10px;
+    }
+    .NoActive{
+        width: 15px;
+        height: 15px;
+        margin-left: 10px;
+    }
+    .Buton{
+        margin-right: 20px;
+        width: 150px;
+        height: 50px;
+        font-size: 30px;
+    }   
+    .Error{
+        font-size: 25px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .formaOrder{
+        width: 700px;
+        height: 500px;
+    }
+    .rightPart{
+        height: 500px;
+    }
+    .ShowSteps{
+        margin-top: 10px;
+        width: 100%;
+        height: 20xp;
+    }
+    .Active{
+        width: 15px;
+        height: 15px;
+        margin-left: 10px;
+    }
+    .NoActive{
+        width: 15px;
+        height: 15px;
+        margin-left: 10px;
+    }
+    .Buton{
+        margin-right: 20px;
+        width: 150px;
+        height: 50px;
+        font-size: 30px;
+    }   
+    .Error{
+        font-size: 25px;
+    }
+
+}

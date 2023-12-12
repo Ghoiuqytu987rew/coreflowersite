@@ -1,0 +1,12 @@
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+}
+.uploadTitle{
+    width: 100%;
+    background-color: palegoldenrod;
+    border-radius: 30px;
+}

@@ -1,0 +1,63 @@
+.Button{
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+    /* margin-right: 10px; */
+    width: 130px;
+    transition: 1s;
+    border: solid black 2px;
+}
+.Button:hover{
+    background-color: mediumseagreen;
+    transition: 1s;
+}
+.inputEmail{
+    border-top-right-radius: 20px;
+    /* margin-left: 10px; */
+    /* border-bottom-left-radius: 20px; */
+    border-top-left-radius: 20px;
+    border: solid black 2px;
+    width: 120px;
+}
+.inputPassword{
+    
+    border: solid black 2px;
+    width: 120px;
+    border-bottom: solid black 3px;
+}
+.User{
+    border: solid black 2px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: violet;
+}
+.Message{
+    border-radius: 30px;
+    color: brown;
+    display: flex;
+    justify-content: center;
+}
+.Authdiv{
+    display: flex;
+    width: 100%;
+    justify-content: right;
+    align-items: center;
+   
+}
+.Formdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: mediumseagreen;
+    height: 64px;
+    width: 170px;
+    border-radius: 30px;
+}
+.Idiv{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}

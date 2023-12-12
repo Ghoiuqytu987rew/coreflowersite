@@ -1,0 +1,106 @@
+.ButonDiv{
+    margin-top: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Buton{
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    width: 150px;
+    height: 50px;
+    font-size: 30px;
+    font-family: cursive;
+}
+.Buton:hover{
+    background-color: forestgreen;
+}
+.Input{
+    width: 200px;
+    height: 50px;
+    margin: 30px;
+    border-radius: 10px;
+    border: solid black 2px;
+}
+.Title{
+    font-size: larger;
+    font-family: cursive;
+}
+.CityForm{
+    margin: 0px;
+    width: 100%;
+}
+.Department{
+    width: 100%;
+}
+.h2Title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inputDeliver{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    
+}
+.inputI{
+    border-radius: 30px;
+    width: 250px;
+    height: 30px;
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 200px) and (max-width: 600px) {
+ 
+    .Title{
+        font-size: small;
+    }
+    .h2Title{
+        font-size: small;
+    }
+    .Input{
+        width: 200px;
+        height: 50px;
+        margin: 10px;
+    }
+    .inputDeliver{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 30px;
+    }
+    .inputI{
+        border-radius: 30px;
+        width: 250px;
+        height: 30px;
+    }
+    .CityForm{
+        height: 25px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+   
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 768px) and (max-width: 992px)  {
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px)  {
+ 
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  
+
+}

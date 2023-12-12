@@ -1,0 +1,27 @@
+.Main{
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: whitesmoke;
+}
+.DivInput{
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.Error{
+    color: red;
+}
+.MainResponse{
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: brown;
+}
+.MainError{
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: green
+}

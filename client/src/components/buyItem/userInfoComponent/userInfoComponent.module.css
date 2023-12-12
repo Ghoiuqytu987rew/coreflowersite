@@ -1,0 +1,136 @@
+.formClient{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    margin-top: 20px;
+}
+.h6FormClient{
+    /* margin-bottom: 10px; */
+    margin-right: 30px;
+    font-size: 30px;
+    font-family: cursive;
+}
+/* .divFormClient{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: aqua;
+} */
+.divFormClientA{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    font-size: 30px;
+    font-family: cursive;
+}
+.divFormClientB{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    font-size: 30px;
+    font-family: cursive;
+}
+.ButonDiv{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    /* background-color: aqua; */
+}
+.Buton{
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    width: 150px;
+    height: 50px;
+    font-size: 30px;
+    font-family: cursive;
+}
+.Buton:hover{
+    background-color: forestgreen;
+}
+
+.Input{
+    width: 200px;
+    height: 50px;
+    margin: 30px;
+    border-radius: 10px;
+    border: solid black 2px;
+}
+.Title{
+    font-size: larger;
+    font-family: cursive;
+}
+@media only screen and (min-width: 200px) and (max-width: 600px) {
+    .Title{
+        font-size: small;
+    }
+    .Input{
+        width: 200px;
+        height: 50px;
+        margin: 30px;
+        border-radius: 10px;
+        border: solid black 2px;
+    }
+    .divFormClientA{
+        font-size: 10px;
+    }
+    .h6FormClient{
+        /* margin-bottom: 10px; */
+        margin-right: 10px;
+        font-size: small;
+    }
+
+    .formClient{
+        height: 200px;
+        margin-bottom: 0px;
+
+    }
+    .h6FormClient{
+        margin-bottom: 0px;
+        color: darkgrey;
+    }
+    .divFormClient{
+        margin-left: 2px;
+        margin-right: 2px;
+        margin-bottom: 5px;
+    }
+    .h6FormCheck{
+        font-size: small;
+        font-family: cursive
+    }
+    .ButonDiv{
+        margin-top: 10px;
+
+    }
+    .Buton{
+        margin-left: 20px;
+        margin-right: 20px;
+        width: 150px;
+        height: 50px;
+        font-size: 30px;
+    }
+
+    .Input{
+        width: 200px;
+        height: 25px;
+        margin: 5px;
+    }
+    .Title{
+        font-size: small;
+    }
+}

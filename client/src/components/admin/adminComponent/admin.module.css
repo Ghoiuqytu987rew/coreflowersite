@@ -1,0 +1,32 @@
+.Button{
+    border: none;
+    background-color: violet;
+}
+
+.Button:hover{
+    transition: 1s;
+    border: none; 
+    border-radius: 50%;
+    background-color: mediumseagreen;
+   
+}
+
+.miniMenu{
+    margin-top: 110px;
+    margin-right: 70px;
+    background-color:violet;
+    border-radius: 20px;
+    width: 120px;
+}
+.liClose{
+    background-color:violet;
+    border: none;
+    border-radius: 30px;
+    width: 70px;
+
+}
+
+.liClose:hover{
+    background-color: mediumseagreen;
+    transition: 1s;
+}

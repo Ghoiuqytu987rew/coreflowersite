@@ -1,0 +1,45 @@
+.Button{
+    margin-left: 5px;
+    border: none;
+    background-color: mediumseagreen;
+    transition: 1s;
+    font-family: cursive;
+    font-size: 15px;
+}
+
+.Button:hover{
+    transition: 1s;
+    border: none; 
+    border-radius: 50%;
+    background-color: lightslategrey;
+    font-size: 18px;
+   
+}
+
+.miniMenu{
+    border: solid black 1px;
+    position: absolute;
+    margin-top: 0px;
+    margin-right: 0px;
+    background-color:mediumseagreen;
+    border-radius: 20px;
+    width: 150px;
+    transition: 1s;
+}
+.liClose{
+    /* background-color:violet; */
+    border: none;
+    border-radius: 30px;
+    width: 100px;
+    transition: 1s;
+
+}
+
+.liClose:hover{
+    background-color: dimgrey;
+    transition: 1s;
+}
+.ButtonNon{
+    display: none;
+    transition: 1s;
+}
